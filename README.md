@@ -1,2 +1,5 @@
 # CSP_Library_Book_Manager
 This program is a library manager which will allow library personnel to add books to, find books in, and look over a list of library books. This program whould be kept open at all times since it resets the list with every restart. There is three files in this repo, book.py, library_manager.py, and _pycache_. To run this program, create a folder on your computer and put all three files from this repo in that folder.
+
+Here is a video explaining the program:
+https://youtu.be/ABAxL2OaGtk
