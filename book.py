@@ -46,9 +46,13 @@ class Book:
           )
     
     def get_details(self):
-          return print(self)
+          return {
+        "title": self.title,
+        "author": self.author,
+        "isbn": self.isbn
+    }
 
 if __name__ == "__main__":
     my_favorite_book = Book("Christmas Carol", "Charles Dickens", 9781912714704)
-    Book.get_details(my_favorite_book)
+    print(Book.get_details(my_favorite_book))
     input("Press Enter to Exit")
